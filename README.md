@@ -78,28 +78,28 @@ python CrosswordTest.py
 **Here’s a brief overview of what the script does:**
 
 **Setup and Initialization:**
-Sets up logging.
-Configures and initializes the Chrome WebDriver.
+- Sets up logging.
+- Configures and initializes the Chrome WebDriver.
 
 
 **Navigates to the Crossword Page:**
-Opens the specified URL.
-Switches to the required iframes and closes any advertisement.
+- Opens the specified URL.
+- Switches to the required iframes and closes any advertisement.
 
 
 **Interacts with the Game:**
-Maximizes the browser window.
-Clicks the "Play" button.
-Enables "Auto Check".
-Iterates through each letter of the alphabet, testing it in the crossword square.
+- Maximizes the browser window.
+- Clicks the "Play" button.
+- Enables "Auto Check".
+- Iterates through each letter of the alphabet, testing it in the crossword square.
 
 
 **Reveals the Puzzle:**
-Clicks the necessary buttons to reveal the entire puzzle.
+- Clicks the necessary buttons to reveal the entire puzzle.
 
 
 **Takes a Screenshot:**
-Captures a screenshot of the final state and saves it to the specified path.
+- Captures a screenshot of the final state and saves it to the specified path.
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
