@@ -73,9 +73,9 @@ python CrosswordTest.py
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
-## Script Overview
+## Script Overview & Report
 
-**Here’s a brief overview of what the script does:**
+### Overview
 
 **Setup and Initialization:**
 - Sets up logging.
@@ -100,6 +100,9 @@ python CrosswordTest.py
 
 **Takes a Screenshot:**
 - Captures a screenshot of the final state and saves it to the specified path.
+
+### Report
+- The script failed whenever trying to check if the date of the puzzle was loaded correctly, therefore I decided to not go further with this test and do a manual test instead.
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
