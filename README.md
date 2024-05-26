@@ -24,14 +24,9 @@ This project is about using visual studio code and python to test the following 
 **ChromeDriver:** This is needed to drive the Chrome browser. Download the version that matches your installed Chrome version from chromedriver.chromium.org.
 
 **Selenium:** A Python package for web automation. Install it using pip:
-```
-pip install selenium
-```
 
 **PyAutoGUI:** A Python package for GUI automation. Install it using pip:
-```
-pip install pyautogui
-```
+
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
@@ -61,6 +56,15 @@ driver_path = 'C:/Users/marig/chromedriver.exe'  # Update this path to your Chro
 ```
 code .
 ```
+
+**Install the following requirements**
+```
+pip install selenium
+```
+```
+pip install pyautogui
+```
+
 
 **Run the script using Python:**
 ```
