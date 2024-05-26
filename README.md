@@ -43,6 +43,16 @@ cd <repository-name>
 - Download ChromeDriver from chromedriver.chromium.org and place it in a directory of your choice (remember to check the correct chromedriver version according to your current version of Google Chrome).
 - Update the driver_path variable in the script to point to the location of your ChromeDriver executable.
 
+  
+**Install the following requirements**
+```
+pip install selenium
+```
+```
+pip install pyautogui
+```
+
+
 **Running the Script**
 
 Ensure your driver_path is correctly set to the location of your ChromeDriver executable in the script:
@@ -56,15 +66,6 @@ driver_path = 'C:/Users/marig/chromedriver.exe'  # Update this path to your Chro
 ```
 code .
 ```
-
-**Install the following requirements**
-```
-pip install selenium
-```
-```
-pip install pyautogui
-```
-
 
 **Run the script using Python:**
 ```
